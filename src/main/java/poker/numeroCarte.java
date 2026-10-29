@@ -21,7 +21,7 @@ public enum NumeroCarte {
         this.points = points;
     }
 
-    public int getPoints() {
+    public int obtenirPoints() {
         return points;
     }
 }
