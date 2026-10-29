@@ -1,5 +1,8 @@
 package poker;
 
 public enum SymboleCarte {
-    TREFLE, CARREAU, COEUR, PIQUE
+    TREFLE, 
+    CARREAU, 
+    COEUR, 
+    PIQUE
 }
