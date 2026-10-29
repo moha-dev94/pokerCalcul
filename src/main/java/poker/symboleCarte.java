@@ -1,5 +1,5 @@
 package poker;
 
-public enum symboleCarte {
+public enum SymboleCarte {
     TREFLE, CARREAU, COEUR, PIQUE
 }

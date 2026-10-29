@@ -1,6 +1,6 @@
 package poker;
 
-public enum numeroCarte {
+public enum NumeroCarte {
     DEUX(2),
     TROIS(3),
     QUATRE(4),
@@ -17,7 +17,7 @@ public enum numeroCarte {
 
     private final int points;
 
-    numeroCarte(int points) {
+    NumeroCarte(int points) {
         this.points = points;
     }
 
