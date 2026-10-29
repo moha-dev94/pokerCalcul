@@ -10,7 +10,7 @@ class EvaluateurMainTest {
     private final EvaluateurMain evaluateur = new EvaluateurMain();
     
     @Test
-    void sansCombinaisonLaMainRapporteLaPlusHauteCarte()
+    void carteHaute()
     {
       Main main = new Main(new Carte(TROIS, TREFLE), new Carte(HUIT, CARREAU), new Carte(DIX, COEUR),
                 new Carte(DAME, PIQUE), new Carte(ROI, TREFLE));
