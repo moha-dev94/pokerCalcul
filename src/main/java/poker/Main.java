@@ -12,7 +12,7 @@ public class Main {
         this.cartes = List.of(cartes);
     }
 
-    public int obtenirPointsDeLaPlusHauteCarte() {
+    public int obtenirPointsPlusHauteCarte() {
         return Collections.max(obtenirPointsTries());
     }
 
